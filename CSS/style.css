@@ -1,0 +1,441 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+ }
+
+ .box{
+     width: 1025px;
+     margin: 0 auto;
+     background: #fafafa;
+ }
+
+ .uper{
+     background-image: url(../img/img-headerShape.png);
+     display: flex;
+     padding-left: 150px;
+     padding-top: 100px;
+ }
+
+ .left{
+     margin-right: 200px;
+     text-align: center;
+ }
+
+ .left img{
+     margin-bottom: 20px;
+     width: 150px;
+     height: 150px;
+     border-radius: 80px;
+ }
+
+ .left .name{
+     font-size: 40px;
+     margin-bottom: 10px;
+ }
+
+ .left .Ename{
+    margin-bottom: 8px;
+    color: #4a4a4a;
+}
+
+ .left .jobname{
+    color: #4a4a4a;
+}
+
+ .right{
+     padding-top: 20px;
+ }
+
+ .right li{
+     margin-bottom: 20px;
+     display: flex;
+     align-items: center;
+     color: white;
+     font-size: 18px;
+ }
+
+ .right li img{
+     margin-right: 20px;
+ }
+
+
+
+ .Skills{
+     text-align: center;
+     color: #1736dc;
+     font-size: 26px;
+     margin-bottom: 50px;
+     margin-top: 100px;
+ }
+ 
+
+ .cardbox{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .card{
+     width: 300px;
+     border: 1px solid #eaeaea;
+     border-radius: 5px;
+     text-align: center;
+     border-bottom: 8px solid #f58d23;
+ }
+
+ .card:hover{
+    box-shadow: 5px 5px 15px gray;
+ }
+
+ .card img{
+     margin-bottom: 15px;
+     margin-top: 30px;
+ }
+
+ .card h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cardul{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+ .card .cardul{
+     text-align: left;
+     font-size: 12px;
+ }
+
+ .card2{
+     border-bottom: 8px solid #539e43;
+ }
+
+ .card3{
+    border-bottom: 8px solid  #6762a6;
+}
+
+.middle .Experience_title{
+    text-align: center;
+    color: #1736dc;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.startimg{
+    margin-left: 497px;
+    height: 1px;
+}
+
+.timeline{
+    height: 600px;
+    width: 0px;
+    border: 1px solid #d8d8d8;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Experience_Card_right1{
+    position: absolute;
+    top: 70px;
+    left: -12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.right1_content{
+    width: 330px;
+    border: 2px solid #fb56bf;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.right1_content:hover{
+    background-color: yellow;
+}
+
+.right1_content ul{
+    padding-left: 10px;
+    line-height: 2;
+}
+
+.right1_content .date{
+    font-weight:bold;
+}
+
+.right1_content .name_2{
+    color: #8a1837;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.right1_content .company{
+    color: #888888;
+}
+
+.right1_content .Introduction{
+    line-height: 1.5;
+    color: #c9c9c9;
+    margin-bottom: 10px;
+}
+
+.Experience_Card_left{
+    position: absolute;
+    top: 230px;
+    left: -12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.left_content{
+    width: 330px;
+    border: 2px solid #fb56bf;
+    border-radius: 10px;
+    position: absolute;
+    left: -340px;
+}
+
+.left_content:hover{
+    background-color: yellow;
+}
+
+.left_content ul{
+    text-align: right;
+    padding-right: 10px;
+    line-height: 2;
+}
+
+.left_content .date{
+    font-weight:bold;
+}
+
+.left_content .name_2{
+    color: #8a1837;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.left_content .company{
+    color: #888888;
+}
+
+.left_content .Introduction{
+    line-height: 1.5;
+    color: #c9c9c9;
+    margin-bottom: 10px;
+}
+
+
+.Experience_Card_right2{
+    position: absolute;
+    top: 400px;
+    left: -12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.right2_content{
+    width: 330px;
+    border: 2px solid #fb56bf;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.right2_content:hover{
+    background-color: yellow;
+}
+
+.right2_content ul{
+    padding-left: 10px;
+    line-height: 2;
+}
+
+.right2_content .date{
+    font-weight:bold;
+}
+
+.right2_content .name_2{
+    color: #8a1837;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.right2_content .company{
+    color: #888888;
+}
+
+.right2_content .Introduction{
+    line-height: 1.5;
+    color: #c9c9c9;
+    margin-bottom: 10px;
+}
+
+.time_endline{
+    width: 30px;
+    height: 0px;
+    border: 1px solid #d8d8d8;
+    margin: 0 auto;
+}
+
+
+.works_title{
+    color: #fb56bf;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.card_box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.works_card:hover{
+    box-shadow: 5px 5px 15px gray;
+    cursor: pointer;
+}
+
+.card_img{
+    width: 300px;
+    height: 160px;
+    background-color: #fdb4e3;
+    text-align: right;
+    line-height: 19.3;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card_content{
+    background-color: white;
+    width: 300px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.card_content ul{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.card_content .title{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card_content .text{
+    padding-bottom: 10px;
+    color: #afafaf;
+}
+
+.card_img2{
+    width: 300px;
+    height: 160px;
+    background-color: #424242;
+    text-align: center;
+    line-height: 15;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card_img3{
+    width: 300px;
+    height: 160px;
+    background-color: #8ad7fa;
+    text-align: center;
+    line-height: 15;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.about_title{
+    color: #fb56bf;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.about_content{
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+}
+
+.content_left img{
+    width: 260px;
+    height: 335px;
+    margin-right: 50px;
+}
+
+.content_right_p1{
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.content_right_p2{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.under{
+    height: 87px;
+    background-image: url(../img/img-Looper-bg.png);
+    background-repeat: no-repeat;
+}
+
+.under p{
+    text-align: center;
+    line-height: 5.5;
+    font-size: 18px;
+}
